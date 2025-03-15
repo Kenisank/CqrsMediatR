@@ -20,3 +20,6 @@ Run "dotnet add package MediatR" in terminal to install MediatR Package
 
 Register the package in services by adding "builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 " in your Program.cs
+
+## 6
+For easy code generating, run "dotnet tool install -g dotnet-aspnet-codegenerator" in terminal
